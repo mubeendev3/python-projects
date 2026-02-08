@@ -15,11 +15,12 @@ A collection of practical Python applications demonstrating various programming 
 
 ## 🎯 Overview
 
-This repository contains three standalone Python applications:
+This repository contains four standalone Python applications:
 
 1. **Word Counter** - Analyze text statistics (characters, words, sentences)
 2. **Currency Converter** - Convert between currencies using live exchange rates
 3. **Number Guessing Game** - Interactive number guessing game with hints
+4. **Quiz App** - Multiple-choice quiz application with score tracking
 
 Each project is self-contained and can be run independently.
 
@@ -53,6 +54,16 @@ An interactive game where players guess a randomly generated number within a spe
 - Input validation
 - Attempt counter
 - Helpful hints (too high/too low)
+
+### 4. Quiz App (`quiz_app.py`)
+
+An interactive multiple-choice quiz application that tests knowledge and tracks scores.
+
+**Features:**
+- Multiple-choice questions (A/B/C/D format)
+- Real-time score tracking
+- Immediate feedback on answers
+- Easy to customize with your own questions
 
 ## 📋 Requirements
 
@@ -135,6 +146,37 @@ Enter your guess (1–100): 37
 🎉 Correct! You guessed the number in 3 attempts.
 ```
 
+### Quiz App
+
+Run the quiz application:
+
+```bash
+python quiz_app.py
+```
+
+**Example:**
+```
+🧠 Welcome to the Quiz App!
+
+Question 1: What does CPU stand for?
+A. Central Processing Unit
+B. Computer Personal Unit
+C. Central Program Utility
+D. Control Processing Unit
+Your answer (A/B/C/D): A
+✅ Correct!
+
+Question 2: Which language is commonly used for AI?
+A. HTML
+B. CSS
+C. Python
+D. SQL
+Your answer (A/B/C/D): C
+✅ Correct!
+
+🎯 Quiz Finished! Your score: 2/2
+```
+
 ## 📁 Project Structure
 
 ```
@@ -143,7 +185,8 @@ Python Projects/
 ├── README.md                 # Project documentation
 ├── word_counter.py          # Word counting application
 ├── currency_convertor.py    # Currency conversion tool
-└── number_guessing_game.py  # Number guessing game
+├── number_guessing_game.py  # Number guessing game
+└── quiz_app.py              # Multiple-choice quiz application
 ```
 
 ## ✨ Features
